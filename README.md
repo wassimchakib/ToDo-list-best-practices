@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Webpack
+# TODo-list-best-practices
 
-> This is a boilerplate webpack that can be used as a starting point for projects.
+> This is todo list project using best practices.
 
 
 ## Built With
@@ -18,7 +18,7 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 
 Clone this repository by using the command line : 
-`git clone https://github.com/wassimchakib/Webpack.git`
+`git clone https://github.com/wassimchakib/ToDo-list-best-practices.git`
 
 ### Install
 

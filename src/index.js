@@ -11,9 +11,9 @@ const populateListItems = (arrayOfTasks) => {
   arrayOfTasks.forEach((task) => {
     listContent.innerHTML += `
     <li>
-      <button class="check-btn" ><i class="fa-solid fa-check ${
-  task.completed ? 'active' : ''
-}"></i></button>
+      <input type="checkbox" class="check-btn" ${
+        task.completed ? 'checked' : ''
+      }>
       <div class="container ${task.completed ? 'active' : ''}">
       <div contenteditable="true" class="content-description">${
   task.description

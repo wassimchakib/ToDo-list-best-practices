@@ -12,8 +12,8 @@ const populateListItems = (arrayOfTasks) => {
     listContent.innerHTML += `
     <li>
       <input type="checkbox" class="check-btn" ${
-        task.completed ? 'checked' : ''
-      }>
+  task.completed ? 'checked' : ''
+}>
       <div class="container ${task.completed ? 'active' : ''}">
       <div contenteditable="true" class="content-description">${
   task.description
